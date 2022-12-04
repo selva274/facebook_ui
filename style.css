@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #e0dcdc;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: #add8e6;
+    display: flex
+}
+
+.brandIcon {
+    height: 75px;
+    width: 75px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 90px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+
+.searchBar {
+    width: 20%;
+    height: 55px;
+    background: white;
+    margin: 15px;
+    margin: 20px;
+    border-radius: 150px;
+}
+
+.navItem {
+    height: 75px;
+    width: 75px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 150px;
+}
+
+.Fnavitem {
+    margin-left: 140px;
+}
+
+.navElement {
+    height: 55px;
+    width: 55px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+
+.Felement {
+    margin-left: 350px;
+}
+
+.Mrow {
+    width: 100%;
+    display: flex;
+}
+
+.col1 {
+    background-color: #add8e6;
+    height: 100vh;
+    position: relative;
+    width: 25%;
+}
+
+.col2 {
+    background: #add8e6;
+    width: 50%;
+    height: 100vh;
+}
+
+.col3 {
+    width: 25%;
+    height: 100vh;
+    background: #add8e6;
+    position: relative;
+}
+
+.col2 .navElement {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.story {
+    background-color: white;
+    height: 250px;
+    width: 17%;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.sendItem {
+    width: 100%;
+    height: 200px;
+    background: #add8e6;
+    position: relative;
+}
+
+.sendItem .navElement {
+    margin-left: 70px;
+    margin-top: 30px;
+    position: absolute;
+    top: 20px;
+}
+
+.sendItem .searchBar {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 40%;
+    top: 19px;
+    left: 90px;
+}
+
+.source {
+    height: 55px;
+    width: 55px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 150px;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.source2 {
+    height: 55px;
+    width: 55px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 150px;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    left: 370px;
+}
+
+.source3 {
+    height: 55px;
+    width: 55px;
+    background: #add8e6;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 150px;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    left: 670px;
+}
+
+.text,
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text8,
+.text9,
+.text10 {
+    width: 190px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+
+.text1 {
+    top: 120px;
+}
+
+.text2 {
+    top: 195px;
+}
+
+.text3 {
+    top: 270px;
+}
+
+.text4 {
+    top: 345px;
+}
+
+.text5 {
+    top: 420px;
+}
+
+.text6 {
+    top: 495px;
+}
+
+.text7 {
+    top: 570px;
+}
+
+.text8 {
+    top: 645px;
+}
+
+.text9 {
+    top: 720px;
+}
+
+.text10 {
+    top: 795px;
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7px;
+}
